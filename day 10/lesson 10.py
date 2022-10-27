@@ -31,15 +31,16 @@
 
 
 # list =["hay", "junk", "hay", "hay", "moreJunk", "needle", "randomJunk"]
-# a=-1
-# for i in list:
-#     if i=="needle":
-#         a+=1
-#     else:
-#         a+=0
-# print(a)
+# i=0
+# for char in list:
+#     if char in "needle":
+#       print("found the needle at position {}".format(i))
+#     i+=1
 
-my_str="nika 11 keshelava"
+#list =["hay", "junk", "hay", "hay", "moreJunk", "needle", "randomJunk"]
+# print(list.index("needle"))
+
+#my_str="nika 11 keshelava"
 # print(my_str[5]+my_str[6]+"4")
 
 
@@ -50,7 +51,38 @@ my_str="nika 11 keshelava"
 # print(int(m_str[5])+int(m_str[6])+4)
 
 #2)დაბეჭდოს 15
-m_str=[]
-for i in my_str:
-    m_str.append(i)
-print(int(m_str[5])+int(m_str[6])+13)
+# m_str=[]
+# for i in my_str:
+#     m_str.append(i)
+# print(int(m_str[5])+int(m_str[6])+13)
+
+# 
+# arr=[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, -11, -12, -13, -14, -15]
+# a=0
+# b=0
+# if arr==[]:
+#     print([])
+# elif arr==[0,0]:
+#     print([])
+# else:
+#     for i in arr:
+#         if i >0:
+#            a+=1
+#         elif i<0:
+#          b+=i
+        
+#     print(a,b)
+
+n=15
+x=3
+y=5
+
+
+if n%x==0 and n%y==0:
+    print("true because {} is divisible by {} and {}".format(n,x,y))
+elif n%x!=0 and n%y!=0:
+    print ( "false because {} is neither divisible by {} nor {}".format(n,x,y))
+elif n%x!=0 and n%y==0:
+    print("false because {} is not divisible by {}".format(n,x)  )
+elif n%x==0 and n%y!=0:
+    print ( "false because {} is not divisible by {}".format(n,y))
