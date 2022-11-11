@@ -14,7 +14,7 @@
 #     arr.append(int(i))
 # arr.reverse()
 # print(arr)
-
+#---------------------------------------------------------------------
 
 
 # name="ketevan liparteliani"
@@ -40,21 +40,22 @@
 #list =["hay", "junk", "hay", "hay", "moreJunk", "needle", "randomJunk"]
 # print(list.index("needle"))
 
-#my_str="nika 11 keshelava"
+# my_str="nika 11 keshelava"
 # print(my_str[5]+my_str[6]+"4")
+# --------------------------------------------------------------------------
 
-
-#1)დაბეჭდოს 6
+# 1)დაბეჭდოს 6
 # m_str=[]
 # for i in my_str:
 #     m_str.append(i)
 # print(int(m_str[5])+int(m_str[6])+4)
 
-#2)დაბეჭდოს 15
+# 2)დაბეჭდოს 15
 # m_str=[]
 # for i in my_str:
 #     m_str.append(i)
 # print(int(m_str[5])+int(m_str[6])+13)
+# -----------------------------------------------------------------------
 
 # 
 # arr=[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, -11, -12, -13, -14, -15]
@@ -72,17 +73,18 @@
 #          b+=i
         
 #     print(a,b)
+#---------------------------------------------------------------------------
 
-n=15
-x=3
-y=5
+# n=15
+# x=3
+# y=5
 
 
-if n%x==0 and n%y==0:
-    print("true because {} is divisible by {} and {}".format(n,x,y))
-elif n%x!=0 and n%y!=0:
-    print ( "false because {} is neither divisible by {} nor {}".format(n,x,y))
-elif n%x!=0 and n%y==0:
-    print("false because {} is not divisible by {}".format(n,x)  )
-elif n%x==0 and n%y!=0:
-    print ( "false because {} is not divisible by {}".format(n,y))
+# if n%x==0 and n%y==0:
+#     print("true because {} is divisible by {} and {}".format(n,x,y))
+# elif n%x!=0 and n%y!=0:
+#     print ( "false because {} is neither divisible by {} nor {}".format(n,x,y))
+# elif n%x!=0 and n%y==0:
+#     print("false because {} is not divisible by {}".format(n,x)  )
+# elif n%x==0 and n%y!=0:
+#     print ( "false because {} is not divisible by {}".format(n,y))
