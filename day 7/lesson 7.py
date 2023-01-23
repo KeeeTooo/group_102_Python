@@ -144,11 +144,11 @@
 # print(student_rev)
 
 #2 გზა
-students=["nika","ana","mamuka","beqa", "dachi", "iva","farna"]
-new_arr=[]
-i=len(students)
+# students=["nika","ana","mamuka","beqa", "dachi", "iva","farna"]
+# new_arr=[]
+# i=len(students)
 
-while i>0:
-    new_arr.append(students[i-1])
-    i-=1
-print(new_arr)
+# while i>0:
+#     new_arr.append(students[i-1])
+#     i-=1
+# print(new_arr)

@@ -15,13 +15,13 @@
 # print(a[::-1])
 
 
-sheep=5
-b=[]
-for i in range(1,sheep+1):
-    if i ==0:
-        continue
-    b.append(str(i)+"sheep...")
-print ("".join(b))
+# sheep=5
+# b=[]
+# for i in range(1,sheep+1):
+#     if i ==0:
+#         continue
+#     b.append(str(i)+"sheep...")
+# print ("".join(b))
 
 
 # sheep=5

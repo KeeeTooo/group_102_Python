@@ -1,4 +1,4 @@
-@@ -1,45 +1,54 @@
+
 print ("this is lesson 2")
 print(len("keti"))
 print("this is lesson 2 homework")
@@ -29,9 +29,9 @@ full_name= "ketevan liparteliani"
 print (len(full_name))
 # ყველა სტრინგი შეგვიძლია მივიჩნიოთ სიად, დავნომროთ და გამოვიტანოთ
 
- print("k" not in full_name)
- print( full_name [2:7])
- print( full_name [2:7:2])   #start:finish:step
+print("k" not in full_name)
+print( full_name [2:7])
+print( full_name [2:7:2])   #start:finish:step
 print( full_name [:7])
 print (full_name[0])   # 0 გამოაქვს პირველი სიმბოლო ბრჭყალების მერე
 

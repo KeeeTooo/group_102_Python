@@ -33,12 +33,20 @@
 #ინტ, ფლოატ, ბოოლეან, ლისტ
 
 
-i=0
-x=""
-my_list=["xinkali","mwvadi","lobiani","qababi","wyali"]
-prices=["2","20","15","10","1"]
-while i<len(my_list):
-    pricelist=(my_list[i] +" girs " +prices[i]+ " lari ")
-    x+=pricelist
-    i+=1
-print(x)
+# i=0
+# x=""
+# my_list=["xinkali","mwvadi","lobiani","qababi","wyali"]
+# prices=["2","20","15","10","1"]
+# while i<len(my_list):
+#     pricelist=(my_list[i] +" girs " +prices[i]+ " lari ")
+#     x+=pricelist
+#     i+=1
+# print(x)
+
+
+
+
+
+
+
+

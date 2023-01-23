@@ -6,6 +6,7 @@
 
 
 # compare_scores(11,5)
+#---------------------------------------------------------------------------------
 
 
 # def multiply(a,b):
@@ -19,7 +20,7 @@
 #   print("Even")
 #  else:
 #     print("Odd")
-
+#---------------------------------------------------------------------------------
 
 # def reverse_arr(list):
  
@@ -29,14 +30,14 @@
 #      list1.append(list[i-1])
 #      i-=1
 #  print (list1)
-
+#---------------------------------------------------------------------------------
 # def scores_comp(score1,score2):
 #  if score1>score2 :
 #   print("{} >{} ,{} qulit".format(score1,score2,score1-score2))
 #  elif score2>score1 :
 #   print("{} >{} ,{} qulit".format(score2,score1,score2-score1))
 
-
+#---------------------------------------------------------------------------------
 
 #  student_rev=[]
 #  students=["nika","ana","mamuka","beqa", "dachi", "iva","farna"]
@@ -47,16 +48,19 @@
 #  print(student_rev)
 # studentsF(["nika","ana","mamuka","beqa", "dachi", "iva","farna"])
 
+#---------------------------------------------------------------------------------
 
 # mytxt=("ketevan")
 # i=0
 # while i>-len(mytxt):
 #  print (mytxt[i-1])
 #  i-=1
+#---------------------------------------------------------------------------------
 
-arr=[1,-2,3,5,-5]
-arr1=0
-for char in arr:
-    if char>0:
-        arr1+=char
-return arr1
+def positive_sum(arr):
+    arr1 = 0
+    for i in arr:
+        if i > 0:
+            arr1 = arr1 + i
+    
+    return arr1

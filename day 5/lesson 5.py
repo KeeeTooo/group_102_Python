@@ -94,10 +94,16 @@
 
 
 
-name=input("enter your name")
-i=0
-for char in name:
-   i+=1
-   if char in "aeiou":
-      print(i,char)
+# name=input("enter your name")
+# i=0
+# for char in name:
+#    i+=1
+#    if char in "aeiou":
+#       print(i,char)
 
+# name="ketevan"
+# i=0
+# while i<len(name):
+#    if name[i] in "aeiou":
+#       print(str(i)+ name[i])
+#    i+=1
