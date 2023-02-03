@@ -72,28 +72,6 @@
 
 
 
-# a=-5
-# b=-2
-
-# c=min(a,b)
-# #print(c)
-# d=0
-# for i in range(a,b+1):
-#     d+=i
-# print(d)
-
-cc="4556364607935616"
-c=""
-for i in range(len(cc)-4):
-    c+="#"
-c+=cc[-4]
-c+=cc[-3]
-c+=cc[-2]
-c+=cc[-1]
-print(c)
-
-
-
 
 
 
